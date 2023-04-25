@@ -31,15 +31,7 @@ namespace Caesar
                     {
                         letter = (char)(letter - 26);
                     }
-                    //if (letter >= 'X' && letter <= 'Z')
-                    //{
-                    //    letter = (char)(letter - 26);
-                    //}
-                    //else if (letter >= 'x' && letter <= 'z')
-                    //{
-                    //    letter = (char)(letter - 26);
-                    //}
-
+                 
                     Console.Write($"{(char)(letter + shiftLetterAmount)}");
                 }
             }
